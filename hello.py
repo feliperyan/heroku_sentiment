@@ -14,6 +14,8 @@ def hello():
 
 @app.route('/api/v1.0/sentiment', methods=['POST'])
 def receive_scan_from_api():
+# Example at Heroku:
+# curl -X POST -H 'Content-Type: application/json' -d '{"data":"Are you kidding me? This is GREAT!"}' https://sentiment-fryan.herokuapp.com/api/v1.0/sentiment
     if not request.json:
         abort(400)
     
