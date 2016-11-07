@@ -10,4 +10,6 @@ $ curl -X POST -H 'Content-Type: application/json' -d '{"data":"Are you kidding 
 
 ##Todo:
 
-Add an index.html so showcase the sentiment analysis without having to issue a POST request from somewhere else.
+- For me: Add an index.html so showcase the sentiment analysis without having to issue a POST request from somewhere else.
+- For you: Create a lightning component to represent the scoring, here's a suggestion
+    [Lightninc Component with Emoticon](https://org62.my.salesforce.com/servlet/servlet.FileDownload?file=0150M000003okh8)
